@@ -3,12 +3,8 @@
 <head><?php wp_head(); ?></head>
 <body <?php body_class(); ?>>
 <header>
-<h1><?php bloginfo('name'); ?></h1>
-<?php wp_nav_menu(['theme_location'=>'primary']); ?>
-<div class="container">
-
-
-
-</div>
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
+<!-- <h1><?php bloginfo('name'); ?></h1> -->
+<!-- <?php wp_nav_menu(['theme_location'=>'primary']); ?> -->
 </header>
 <main>
